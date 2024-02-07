@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125vh;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(78, 81, 84, 0.8);
+    /* opacity: 0.8; */
+    padding: 10px;
+    width: 1100px;
+}
+
+.container .row-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.container .col {
+    background-color: rgb(34, 33, 33);
+    padding: 15px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.container .col .img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.container .col .img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.container .col p {
+    color: white;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.container .col .dsc {
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.container .col .person {
+    background-color: rgb(64, 65, 66);
+    width: 280px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    height: 50px;
+}
+
+.container .person .img-person {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.container .person .img-person img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.container .person .indentity {
+    margin-left: 20px;
+    width: 150px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.container .person .indentity .name {
+    margin-bottom: 5px;
+}
+
+.container .col .person i {
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+    top: 30%;
+    color: white;
+}
+
+.container .row-2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
